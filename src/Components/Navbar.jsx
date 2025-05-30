@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Home'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
         <a href="" className='pr-10 hover:underline hover:text-[#6A5ACD]'>Cart[]</a>
       </div>
       <div className='mt-8'>
-        <a href="" className='text-[#6A5ACD] '>Get started</a>
+        <Link to="/signup">Get started</Link>
         <hr className='border-blue-500 border-2'/>
       </div>
     </div>
